@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: rgb(232, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+            scroll-behavior: smooth;
+        }
+
+        #BarraDePesquisa{
+            background: #212121;
+            position: fixed;
+            width: 10000px;
+            height: 100px;
+            display: flex;
+            color: white;
+        }
+
+        #BarraDePesquisa a{
+            text-decoration: none;
+            color: white;
+            padding: 30px 280px;
+            margin-top: -15px;
+        }
+
+        #Inicio img{
+            border-radius: 300000px;
+            object-fit: cover;
+            border: solid, #212121, 1px;
+            width: 280px;
+            height: 280px;
+            margin-left: 780px;
+            margin-top: 110px;
+        }
+
+         #Inicio h3{
+            margin-left: 360px;
+         }
+
+          #Inicio button{
+            padding: 30px;
+            color: white;
+            background: #212121;
+            border-radius: 30px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            cursor: pointer;
+            margin-left: 850px;
+          }
+
+          #Inicio button:hover{
+            color: black;
+            background: white;
+            transition: 0.5s;
+          }
+
+          #MeusProjetos{
+            margin-top: 380px;
+          }
+          #MeusProjetos h1{
+            margin-left: 866px;
+            padding-top:120px;
+          }
+
+          #MeusProjetos h3{
+            margin-left: 790px;
+          }
+
+          .box1{
+            background: white;
+            padding: 50px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            border-radius: 50px;
+            width: 390px;
+            text-align: center;
+            margin: 50px;
+          }
+          .box1 button{
+            padding: 15px;
+            color: white;
+            background: #212121;
+            border-radius: 30px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            cursor: pointer;
+          }
+          .box1 button:hover{
+            color: black;
+            background: white;
+            transition: 0.5s;
+          }
+
+          .box2{
+            background: white;
+            padding: 50px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            border-radius: 50px;
+            width: 390px;
+            text-align: center;
+            margin-left: 700px;
+            margin-top: -320px;
+          }
+          .box2 button{
+            padding: 15px;
+            color: white;
+            background: #212121;
+            border-radius: 30px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            cursor: pointer;
+          }
+          .box2 button:hover{
+            color: black;
+            background: white;
+            transition: 0.5s;
+          }
+
+          .box3{
+            background: white;
+            padding: 50px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            border-radius: 50px;
+            width: 390px;
+            text-align: center;
+            margin-left: 1350px;
+            margin-top: -260px;
+          }
+          .box3 button{
+            padding: 15px;
+            color: white;
+            background: #212121;
+            border-radius: 30px;
+            box-shadow: 10px 5px 5px rgb(124, 124, 124);
+            cursor: pointer;
+          }
+          .box3 button:hover{
+            color: black;
+            background: white;
+            transition: 0.5s;
+          }
+
+          #Contato{
+            margin-top: 480px;
+            padding-top: 120px;
+            text-align: center;
+          }
+    </style>
+</head>
+<body>
+    <div id="BarraDePesquisa">
+            <a href="#Inicio"><h3>Inicio</h3></a>
+            <a href="#MeusProjetos"><h3>Projetos</h3></a>
+            <a href="#Contato"><h3>Contato</h3></a>
+    </div>
+
+    <div id="Inicio">
+        <img src="eu.png" width="400px" height="400px">
+        <h3>Olá meu nome é Davih Felix e eu sou estudante de programação básica para a internet no CEDTEC Laranjeiras, este é meu portifólio.</h3>
+        <a href="#MeusProjetos"><button>Ver projetos</button></a>
+    </div>
+
+    <div id="MeusProjetos">
+        <h1>Projetos</h1>
+        <h3>Alguns trabalhos que desenvolvi.</h3>
+
+        <div class="box1">
+            <h2>portifólio pessoal</h2>
+            <h4>meu site pessoal com meu guia de projetos e informações minhas.</h4>
+            <button>ver projeto</button>
+        </div>
+
+        <div class="box2">
+            <h2>loja virtual</h2>
+            <h4>um e-comerce feito em javascript puro.</h4>
+            <button>ver projeto</button>
+        </div>
+
+        <div class="box3">
+            <h2>dashboard de dados</h2>
+            <h4>painel interativo de visualização de métricas e dados</h4>
+            <button>ver projeto</button>
+        </div>
+
+    </div>
+
+    <div id="Contato">
+        <h1>Contato</h1>
+        <br><input type="text" placeholder="digite seu nome aqui"><br>
+        <br><input type="text" placeholder="digite seu email aqui"><br>
+        <br><textarea name="digite sua mensagem" placeholder="digite sua mensagem"></textarea><br>
+
+        <br><button>enviar</button><br>
+    </div>
+
+    <div id="SocialLinks">
+        <h2>instagram</h2>
+        <img src="imagens/instagram.png">
+
+        <h2>facebook</h2>
+        <img src="imagens/facebook.png">
+
+        <h2>youtube</h2>
+        <img src="imagens/youtube.png">
+
+    </div>
+</body>
+</html>
